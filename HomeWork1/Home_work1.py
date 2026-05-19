@@ -1,4 +1,4 @@
-from unittest import result
+
 
 # task 01 == Виправте синтаксичні помилки
 print("task 01: Hello", end = " ")
