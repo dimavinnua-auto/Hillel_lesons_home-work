@@ -19,25 +19,27 @@ hour after hour. And when the middle of the afternoon came, from being a
 poor poverty, stricken boy in the .... morning, Tom was literally
 rolling in wealth."""
 
-print(adwentures_of_tom_sawer)
-
-
 ##  ПЕРЕЗАПИСУЙТЕ зміст змінної adwentures_of_tom_sawer у завданнях 1-3
 # task 01 ==
 # """ Дані у строці adwentures_of_tom_sawer розбиті випадковим чином, через помилку.
 # треба замінити кінець абзацу на пробіл .replace("\n", " ")"""
 
+new_row = adwentures_of_tom_sawer.replace("\n", " ")
+print("task01_______________")
+print(new_row)
 
 # task 02 ==
 # """ Замініть .... на пробіл
-adwentures_of_tom_sawer.replace("....", (" "))
-print(adwentures_of_tom_sawer)
+new_row2 = adwentures_of_tom_sawer.replace("....", " ")
+print("task02_______________")
+print(new_row2)
 
 # # task 03 ==
 # """ Зробіть так, щоб у тексті було не більше одного пробілу між словами.
-# """
-#
-#
+new_row3 = adwentures_of_tom_sawer.strip(" ")
+print("task03_______________")
+print(new_row3)
+
 # # task 04
 # """ Виведіть, скількі разів у тексті зустрічається літера "h"
 # """
