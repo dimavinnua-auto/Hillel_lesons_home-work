@@ -104,7 +104,7 @@ water = 21
 water_items = 3
 Results_5 = water * water
 print("Task:08___________________")
-print (f'{Results + Results_2 + Results_3+ Results_4 + Results_5}грн. ')
+print(f'{Results + Results_2 + Results_3+ Results_4 + Results_5}грн. ')
 
 # # task 09
 # """

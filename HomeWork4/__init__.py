@@ -11,6 +11,14 @@
 # stop: Кінцевий індекс (не включаючи).
 # step: Крок, з яким вибираються елементи (за замовчуванням 1).
 
-riydok = "Привіт"
-for i in riydok:
-    print(riydok)
+# riydok = "Привіт"
+# for i in riydok:
+#     print(riydok)
+
+
+# row = "Це приклад для заміни у рядку."
+# new_row = row.replace("приклад", "do")
+# print(new_row)
+
+
+
