@@ -52,12 +52,12 @@ print(f'task 07: pear_trees {x * apples_trees}, plum_trees {apples_trees - y} ')
 # Надвечір потепліло на 4 градуси. Яка температура надвечір?
 before = 5
 after = 10
-befor_night = 4
+before_night = 4
 before_after = -5
 morning = 0
 print(f'task 08: До обіда температура повітря була {morning + before} , '
       f'Після обіду температура опустилася до {before - after},'
-      f'температура надвечір {before_after+befor_night }')
+      f'температура надвечір {before_after+before_night }')
 
 # task 09 == Взагалі у театральному гуртку - 24 хлопчики, а дівчаток - вдвічі менше.
 # 1 хлопчик захворів та 2 дівчинки не прийшли сьогодні. Скількі сьогодні дітей у театральному гуртку?
