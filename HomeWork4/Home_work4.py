@@ -1,3 +1,5 @@
+
+
 adwentures_of_tom_sawer = """\n
 Tom gave up the brush with reluctance in his .... face but alacrity
 in his heart. And while
@@ -19,7 +21,7 @@ hour after hour. And when the middle of the afternoon came, from being a
 poor poverty, stricken boy in the .... morning, Tom was literally
 rolling in wealth."""
 
-##  ПЕРЕЗАПИСУЙТЕ зміст змінної adwentures_of_tom_sawer у завданнях 1-3
+#  ПЕРЕЗАПИСУЙТЕ зміст змінної adwentures_of_tom_sawer у завданнях 1-3
 # task 01 ==
 # """ Дані у строці adwentures_of_tom_sawer розбиті випадковим чином, через помилку.
 # треба замінити кінець абзацу на пробіл .replace("\n", " ")"""
@@ -40,27 +42,49 @@ new_row3 = adwentures_of_tom_sawer.strip(" ")
 print("task03_______________")
 print(new_row3)
 
-# # task 04
+# task 04
 # """ Виведіть, скількі разів у тексті зустрічається літера "h"
-# """
-#
-#
-# # task 05
-# """ Виведіть, скільки слів у тексті починається з Великої літери?
-# """
-#
-#
-# # task 06
-# """ Виведіть позицію, на якій слово Tom зустрічається вдруге
-# """
-#
-#
+new_row4 = adwentures_of_tom_sawer
+a = adwentures_of_tom_sawer
+print("task04_______________")
+print(a.count('h'))
+
+# # # task 05
+# # """ Виведіть, скільки слів у тексті починається з Великої літери?
+b = adwentures_of_tom_sawer.split()
+count = 0
+for word in b:
+    if word[0].isupper():
+        count += 1
+print("task05_______________")
+print(f"Слів, що починаються з великої літери: {count}")
+
+
+# # # task 06
+# # """ Виведіть позицію, на якій слово Tom зустрічається вдруге
+words = adwentures_of_tom_sawer.split()
+count = 0
+idnnx = 0
+for index, i in enumerate(words):
+    if i == "Tom":
+        count += 1
+    if count == 2:
+        idnnx = index
+        break
+print("task06_______________")
+print(idnnx)
+
 # # task 07
 # """ Розділіть змінну adwentures_of_tom_sawer по кінцю речення.
 # Збережіть результат у змінній adwentures_of_tom_sawer_sentences
-# """
 # adwentures_of_tom_sawer_sentences = None
-#
+
+b = adwentures_of_tom_sawer.rstrip()
+print(b)
+
+
+
+
 # # task 08
 # """ Виведіть четверте речення з adwentures_of_tom_sawer_sentences.
 # Перетворіть рядок у нижній регістр.
