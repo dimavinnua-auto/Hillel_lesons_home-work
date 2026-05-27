@@ -93,6 +93,10 @@ rolling in wealth.''')
 
 
 
+
+
+
+
 # # task 08
 # """ Виведіть четверте речення з adwentures_of_tom_sawer_sentences.
 # Перетворіть рядок у нижній регістр.
