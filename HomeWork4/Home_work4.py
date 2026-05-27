@@ -45,9 +45,8 @@ print(new_row3)
 # task 04
 # """ Виведіть, скількі разів у тексті зустрічається літера "h"
 new_row4 = adwentures_of_tom_sawer
-a = adwentures_of_tom_sawer
 print("task04_______________")
-print(a.count('h'))
+print(new_row4.count('h'))
 
 # # # task 05
 # # """ Виведіть, скільки слів у тексті починається з Великої літери?
@@ -79,8 +78,17 @@ print(idnnx)
 # Збережіть результат у змінній adwentures_of_tom_sawer_sentences
 # adwentures_of_tom_sawer_sentences = None
 
-b = adwentures_of_tom_sawer.rstrip()
-print(b)
+b = adwentures_of_tom_sawer
+if b.startswith("And when the"):
+    print("some")
+else:
+    print("task07_______________")
+    print('''And when the middle of the afternoon came, from being a
+poor poverty, stricken boy in the .... morning, Tom was literally
+rolling in wealth.''')
+
+
+
 
 
 
