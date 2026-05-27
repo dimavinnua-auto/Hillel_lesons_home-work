@@ -77,25 +77,14 @@ print(idnnx)
 # """ Розділіть змінну adwentures_of_tom_sawer по кінцю речення.
 # Збережіть результат у змінній adwentures_of_tom_sawer_sentences
 # adwentures_of_tom_sawer_sentences = None
-
-b = adwentures_of_tom_sawer
-if b.startswith("And when the"):
-    print("some")
-else:
-    print("task07_______________")
-    print('''And when the middle of the afternoon came, from being a
-poor poverty, stricken boy in the .... morning, Tom was literally
-rolling in wealth.''')
-
-
-
-
-
-
-
-
-
-
+# b = adwentures_of_tom_sawer
+# if b.startswith("And when the"):
+#     print("some")
+# else:
+#     print("task07_______________")
+#     print('''And when the middle of the afternoon came, from being a
+# poor poverty, stricken boy in the .... morning, Tom was literally
+# rolling in wealth.''')
 
 # # task 08
 # """ Виведіть четверте речення з adwentures_of_tom_sawer_sentences.
@@ -105,7 +94,12 @@ rolling in wealth.''')
 #
 # # task 09
 # """ Перевірте чи починається якесь речення з "By the time".
-# """
+b = adwentures_of_tom_sawer
+if b.startswith("By the time"):
+    print("some")
+else:
+    print("task09_______________")
+    print("By the time")
 #
 #
 # # task 10
