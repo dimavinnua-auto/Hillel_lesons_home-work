@@ -76,7 +76,7 @@ print(f'task 09: girl = {boys / girls}, present boy = {boys - boy_ill}, '
 # Скільки будуть коштувати усі книги, якщо купити по одному примірнику?//
 
 first = 8
-second = +2
+second = 2
 thrd = "1.2*8"
 print(f'task 10: second = {first + second}')
 first = 8
